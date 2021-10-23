@@ -1,0 +1,11 @@
+### generate models commands
+
+rails g model Coordinates  lat:float lon:float
+rails g model City country:string name:string sunrise:datetime sunset:datetime timezone:integer coordinates:belongs_to
+rails g model WeatherDescription description:string iconCode:string id:integer main:string
+rails g model Wind degress:integer gustSpeed::float speed:float
+rails g model Rain volOneHour:integer volThreeHours:integer
+rails g model Snow volOneHour:integer volThreeHours:integer
+rails g model OneDayWeather cloudPer:integer feelsLike:float groundLevel:integer hot:boolean humidity:integer pressure:integer seaLevel:integer sealevel:integer temp:float tempMax:float tempMin:float visibility:integer WeatherDescription:belongs_to wind:belongs_to
+rails g model city_weather_one_day city:belongs_to weather:belongs_to(OneDayWeather)
+
