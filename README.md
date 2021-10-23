@@ -1,4 +1,4 @@
-#README
+# README
 
 ### Building a GraphQL API Using Ruby on Rails for a company called "CLIMATE CONTROL".
 
