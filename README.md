@@ -4,9 +4,9 @@
 
 ### @author Aishwarya Marghatta Nandeesh <mnaishwarya1@gmail.com, 9376262231>
 
-#####This README file includes the steps that are necessary to get the application up and running.
+##### This README file includes the steps that are necessary to get the application up and running.
 
-#####Framework and Version:
+##### Framework and Version:
 Ruby version used: 2.7.2
 Rails version used: 6.0.4.1
 Tools Used: Command Line Interface (CLI), Visual Studio Code, Git, Chrome Web Browser, GraphQL.
